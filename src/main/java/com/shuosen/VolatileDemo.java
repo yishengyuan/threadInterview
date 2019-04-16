@@ -1,6 +1,5 @@
 package com.shuosen;
 
-import java.rmi.ServerError;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
