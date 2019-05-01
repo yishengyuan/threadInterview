@@ -2,6 +2,7 @@ package com.shuosen.阻塞队列;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -58,7 +59,7 @@ class MyResource {
 
 public class ProConsumer_BlockingQueue {
     public static void main(String[] args) throws Exception {
-        MyResource resource = new MyResource(new ArrayBlockingQueue(3));
+        MyResource resource = new MyResource(new LinkedBlockingDeque(3));
         new Thread(() -> {
             try {
                 resource.myProd();
