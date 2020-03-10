@@ -3,10 +3,7 @@ package com.collections;
 import com.collections.bean.Employee;
 import org.junit.Test;
 
-import java.util.HashMap;
-import java.util.Properties;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 
 /***
  * Map和key是不重复的，value可能重复。
@@ -43,6 +40,14 @@ import java.util.TreeMap;
  *   Vector 和ArrayList
  */
 public class TestMapImpl {
+
+
+    @Test
+    public void testMapSort(){
+          Map<String,String> map = new TreeMap<String,String>();
+
+
+    }
 
     @Test
     public void test7(){
