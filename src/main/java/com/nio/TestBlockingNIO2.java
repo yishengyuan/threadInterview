@@ -1,7 +1,6 @@
 package com.nio;
 
 import org.junit.Test;
-import sun.security.util.Length;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

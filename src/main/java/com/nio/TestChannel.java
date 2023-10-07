@@ -2,7 +2,6 @@ package com.nio;
 
 import org.junit.Test;
 
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters;
 import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;

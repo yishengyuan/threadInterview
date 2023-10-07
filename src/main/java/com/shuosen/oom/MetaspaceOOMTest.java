@@ -1,7 +1,5 @@
 package com.shuosen.oom;
 
-import com.sun.jndi.ldap.EntryChangeResponseControl;
-
 /***
  * JVM参数
  * -XX:MetaspaceSize=8m  -XX:MaxMetaspaceSize=8m

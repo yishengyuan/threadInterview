@@ -18,7 +18,7 @@ public class DirectBufferMemoryDemo {
     //Exception in thread "main" java.lang.OutOfMemoryError: Direct buffer memory
     public static void main(String[] args) {
         //JVM 能使用的直接内存就是物理内存的1/4
-        System.out.println("配置的maxDirectoryMemory"+ (sun.misc.VM.maxDirectMemory()/(double)1024/1024)+"M");
+//        System.out.println("配置的maxDirectoryMemory"+ (sun.misc.VM.maxDirectMemory()/(double)1024/1024)+"M");
          try {   TimeUnit.SECONDS.sleep(1); }catch (InterruptedException e ){  e.printStackTrace(); }
         ByteBuffer.allocateDirect(6*1024*1024);
     }
