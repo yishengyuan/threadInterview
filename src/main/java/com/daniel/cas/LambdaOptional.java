@@ -1,4 +1,4 @@
-package com.daniel;
+package com.daniel.cas;
 
 import org.junit.Test;
 

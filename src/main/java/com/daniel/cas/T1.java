@@ -1,4 +1,4 @@
-package com.daniel;
+package com.daniel.cas;
 
 /***
  * 在方法上面点击执行external tool 执行javac -cp

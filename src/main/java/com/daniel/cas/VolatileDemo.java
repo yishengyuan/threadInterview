@@ -1,4 +1,4 @@
-package com.daniel;
+package com.daniel.cas;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;

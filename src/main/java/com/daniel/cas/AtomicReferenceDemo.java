@@ -1,4 +1,4 @@
-package com.daniel;
+package com.daniel.cas;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

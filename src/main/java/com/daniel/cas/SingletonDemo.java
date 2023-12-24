@@ -1,4 +1,4 @@
-package com.daniel;
+package com.daniel.cas;
 
 /***
  *  多线程下的单例模式
