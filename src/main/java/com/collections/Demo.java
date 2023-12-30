@@ -1,7 +1,5 @@
 package com.collections;
 
-import com.shuosen.SimilarityRatioUtil;
-
 public class Demo
 {
     private int compare(String str, String target)
